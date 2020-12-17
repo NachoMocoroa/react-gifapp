@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test AddCategory should render AddCategory component 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="input-box"
+  >
+    <input
+      className="underlined"
+      onChange={[Function]}
+      placeholder="Search and Enter"
+      type="text"
+      value=""
+    />
+    <span
+      className="highlight"
+    />
+  </div>
+</form>
+`;

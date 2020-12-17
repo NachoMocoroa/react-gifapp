@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test GifApp should render GifApp component 1`] = `
+<div
+  className="app"
+>
+  <header>
+    <h1>
+      GifApp
+    </h1>
+    <AddCategory
+      setCategories={[Function]}
+    />
+  </header>
+  <main />
+  <footer>
+    <p>
+      All images from ©GIPHY, Inc.
+    </p>
+  </footer>
+</div>
+`;
+
+exports[`Test GifApp should show categories list 1`] = `
+<div
+  className="app"
+>
+  <header>
+    <h1>
+      GifApp
+    </h1>
+    <AddCategory
+      setCategories={[Function]}
+    />
+  </header>
+  <main>
+    <GifGrid
+      category="gif"
+      key="gif"
+    />
+  </main>
+  <footer>
+    <p>
+      All images from ©GIPHY, Inc.
+    </p>
+  </footer>
+</div>
+`;
